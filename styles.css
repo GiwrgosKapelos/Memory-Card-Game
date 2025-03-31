@@ -1,6 +1,6 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: #0a0908;
+  background-color: #fff574;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@ h1 {
   align-items: center;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #22333b;
+  background-color: #ff8383;
   border-radius: 20px;
   color: white;
 }
@@ -58,11 +58,11 @@ h1 {
 
 .card.flipped {
   transform: rotateY(180deg);
-  background-color: yellow;
+  background-color: A1D6CB;
 }
 
 .card.matched {
-  background-color: green;
+  background-color: #5f8b4c;
   cursor: default;
 }
 
@@ -79,12 +79,12 @@ h1 {
 }
 
 .card .front {
-  background-color: yellow;
+  background-color: A1D6CB;
   transform: rotateY(180deg);
 }
 
 .card .back {
-  background-color: #5e503f;
+  background-color: #a19ad3;
 }
 
 button {
